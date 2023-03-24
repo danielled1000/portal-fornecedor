@@ -11,11 +11,13 @@
     margin-bottom: 50px;
 }
 
-.fa-circle-user,
-.fa-circle-ellipsis {
-    color: #ebaf23;
+.fa-circle-user {
     font-size: 35px;
     text-align: center;
+}
+
+.fa-circle-user, .fa-pen-to-square, .fa-trash-can{
+    color: #ebaf23;
 }
 
 .container {
@@ -79,12 +81,24 @@ tbody>tr {
     box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
 }
 
+tbody tr a{
+    text-decoration: none;
+}
+
 thead th,
 td,
 th {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+}
+
+.trashModal{
+    padding: 20px
+}
+
+.trashModal h3{
+    text-align: center;
 }
 
 /* ========= */
@@ -120,7 +134,7 @@ input[type=checkbox]{
     border-color: #ebaf2359!important;
 }
 
-form .buttons{
+form .buttons, .trashModal .buttons{
     display: flex;
     justify-content: center;
 }
@@ -129,3 +143,5 @@ form .buttons{
     padding: 10px 20px 10px 20px !important;
     margin-right: 20px;
 }
+
+

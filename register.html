@@ -33,18 +33,18 @@
 
                 </div>
                 <div class="col-4">
-                    <div class="avatar">
+                   <!-- <div class="avatar">
                         <img src="" alt="">
                     </div>
-
-                    <select class="form-select user" id="form-select">
+                    <p>Oscar Neto</p>
+                     <select class="form-select user" id="form-select">
                         <option selected>
                             Oscar Neto
                             <i class="fa-regular fa-chevron-down"></i>
                         </option>
                         <option value="1">Configuração</option>
                         <option value="1">Sair</option>
-                    </select>
+                    </select> -->
                 </div>
             </div>
             <!-- GRADIENT -->
@@ -71,7 +71,7 @@
 
         <div class="row table-list">
             <div class="buttons">
-                <button type="button" class="btn btn-new-user btn-primary" data-bs-toggle="modal"
+                <button type="button" class="btn btn-new-user btn-primary " data-bs-toggle="modal"
                     data-bs-target="#newUser">
                     Novos Usuários
                 </button>
@@ -151,15 +151,49 @@
                             <td>Danielle Gomes</td>
                             <td>Comprador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+
+                                <a href="" data-bs-toggle="modal" data-bs-target="#trashModal">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
+
+                        <!-- MODAL -->
+                        <div class="modal fade trashModal" id="trashModal" tabindex="-1" aria-labelledby="trashModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h3> Confirma a exclusão?</h3>
+                                        <div class="buttons align-middle">
+                                            <button type="button" class="btn btn-secondary btn-cancel"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="button" class="btn btn-primary btn-save">Excluir</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MODAL -->
 
                         <tr>
                             <td scope="row"><i class="fa-solid fa-circle-user"></i></td>
                             <td>Ingrid Lorrana</td>
                             <td>Fornecedor</td>
                             <td>123 5668 050020 </td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
@@ -167,21 +201,42 @@
                             <td>Oscar Neto</td>
                             <td>Administrador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td scope="row"><i class="fa-solid fa-circle-user"></i></td>
                             <td>Victor Paulovich</td>
                             <td>Administrador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td scope="row"><i class="fa-solid fa-circle-user"></i></td>
                             <td>Danielle Gomes</td>
                             <td>Comprador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
@@ -189,7 +244,14 @@
                             <td>Ingrid Lorrana</td>
                             <td>Fornecedor</td>
                             <td>123 5668 050020 </td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
 
                         <tr>
@@ -197,14 +259,28 @@
                             <td>Oscar Neto</td>
                             <td>Administrador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td scope="row"><i class="fa-solid fa-circle-user"></i></td>
                             <td>Victor Paulovich</td>
                             <td>Administrador</td>
                             <td>123 5668 050020</td>
-                            <td><i class="fa-regular fa-circle-ellipsis "></i></td>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </a>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#newUser">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
