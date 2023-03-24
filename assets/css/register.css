@@ -1,0 +1,131 @@
+
+
+/* ========= */
+/* TABLE */
+/* ========= */
+
+.table-list {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fa-circle-user,
+.fa-circle-ellipsis {
+    color: #ebaf23;
+    font-size: 35px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row-settings h2,
+.row-settings span {
+    color: #fff;
+}
+
+.table-list {
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.btn-user {
+    padding: 10px 50px 10px 50px !important;
+}
+
+.btn-new-user, .btn-save {
+    background: linear-gradient(90deg, #ebaf23 0%, #f06423 100%, #00d4ff 100%);
+    margin-right: 10px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border: none !important;
+    padding: 10px 20px 10px 20px !important;
+}
+
+.btn-new-user:hover{
+    transform: scale(1.1);
+}
+
+
+
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 10px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: hidden !important;
+}
+
+
+tbody>tr {
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.09);
+}
+
+thead th,
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ========= */
+/* FORM NEW USER */
+/* ========= */
+form{
+    padding: 10px;
+}
+
+.form-check ul {
+    width: 500px;
+}
+.form-check ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 45px;
+}
+
+
+input[type=checkbox]{
+    margin-right: 5px;
+    border: 1px solid #232629;
+}
+
+.form-check-input:focus {
+    border-color: #ebaf2359!important;
+    box-shadow: 0px 0px 10px 0px rgba(235,175,35,0.35)!important;
+
+}
+
+.form-check-input:checked{
+    background-color: #ebaf23!important;
+    border-color: #ebaf2359!important;
+}
+
+form .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cancel{
+    padding: 10px 20px 10px 20px !important;
+    margin-right: 20px;
+}
