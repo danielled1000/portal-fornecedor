@@ -6,7 +6,7 @@
 
 .table-list {
     background-color: #F5F5F5;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -52,9 +52,12 @@
 }
 
 .btn-new-user:hover{
-    transform: scale(1.1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
+.btn-new-user:active{
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
 
 
 table {
@@ -133,6 +136,42 @@ input[type=checkbox]{
     background-color: #ebaf23!important;
     border-color: #ebaf2359!important;
 }
+
+.tags-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.tags-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.tag {
+    background-color: #e2e3e5;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.tag button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
 
 form .buttons, .trashModal .buttons{
     display: flex;

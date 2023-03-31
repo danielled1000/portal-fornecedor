@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.btn-microsoft {
+/* .btn-microsoft {
     color: #696969;
     background: #FFFFFF;
     cursor: pointer;
@@ -51,7 +51,7 @@
 
 .btn-microsoft:active {
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.25);
-}
+} */
 
 #logo-text-image {
     width: 71%;
